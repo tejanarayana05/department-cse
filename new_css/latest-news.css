@@ -1,0 +1,235 @@
+/* FIRST PANNEL */
+
+.main3 a {
+    text-decoration: none;
+    color: black;
+    /*margin: 4px;
+    height: .5vw;*/
+    max-width: 30vw;
+    }
+
+.main3 ul{
+    position: relative;
+    /* left:-5vw;*/ 
+}
+.main3 li {
+    max-width: 30vw;
+    list-style: square ;
+    font-family: amaranth, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+}
+
+div.news {
+    margin-top: 1vw;
+    width: 33.5vw;
+    height: 37.8vw;
+    position: relative;
+    right: 1vw;
+    top:1.3vw;
+    overflow: hidden;
+    /* box-shadow: 6px 6px 5px gray; */
+    /* background-color: rgba(14, 100, 200, 0.3); */
+}
+
+.news div.announcement {
+    width: 32vw;
+    height: 2vw;
+    position: absolute;
+    top: .7vw;
+    font-size: 1vw;
+    text-align: center;
+    margin:auto;
+}
+.new div.announcement h1{
+    width: 32vw;
+    text-align: center;
+}
+
+.news .rect {
+    background: rgb(204, 204, 204);
+    width: 32vw;
+    height: 4vw;
+    margin: auto;
+    margin-top: 0.7vw;
+}
+
+.news .size {
+    width: 32vw;
+    height: 39vw;
+    position: relative;
+    top: 2vw;
+    overflow-x: hidden;
+}
+.news li{
+    font-size: 1.5vw;
+    margin: 1vw;
+    
+}
+/*.news div.links {*/
+    /*height: 20vw;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+
+
+    /* animation properties */
+    /*-moz-transform: translateY(100%);*/
+    /*-webkit-transform: translateY(100%);*/
+    /*transform: translateY(100%);*/
+
+    /*-moz-animation: my-animation 20s linear infinite;*/
+    /*-webkit-animation: my-animation 20s linear infinite;*/
+    /*animation: my-animation 20s linear infinite;*/
+/*}*/
+
+/* for Firefox */
+/*@-moz-keyframes my-animation {*/
+    /*from {*/
+        /*-moz-transform: translateY(100%);*/
+    /*}*/
+
+    /*to {*/
+        /*-moz-transform: translateY(-100%);*/
+    /*}*/
+/*}*/
+
+/* for Chrome */
+/*@-webkit-keyframes my-animation {*/
+    /*from {*/
+        /*-webkit-transform: translateY(100%);*/
+    /*}*/
+
+    /*to {*/
+        /*-webkit-transform: translateY(-100%);*/
+    /*}*/
+/*}*/
+
+/*@keyframes my-animation {*/
+    /*from {*/
+        /*-moz-transform: translateY(100%);*/
+        /*-webkit-transform: translateY(100%);*/
+        /*transform: translateY(100%);*/
+    /*}*/
+
+    /*to {*/
+        /*-moz-transform: translateY(-100%);*/
+        /*-webkit-transform: translateY(-100%);*/
+        /*transform: translateY(-100%);*/
+    /*}*/
+/*}*/
+
+
+
+
+/* THIRD PANNEL */
+.main3 {
+    display: flex;
+    width: 100vw;
+    height: 20vw;
+}
+
+.main3 li{
+    font-size: 1vw;
+    margin: 1vw;
+}
+.main3 h1 {
+    position: relative;
+    top: -4.5vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+div.main3{
+    width: 100vw;
+}
+.main3 div.size {
+    position: relative;
+    top: -3vw;
+    height: 8.5vw;
+    width: 47.5vw;
+    overflow-x: hidden;
+}
+
+.main3 div.links {
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+
+    -moz-animation: my-animation 3s linear infinite;
+    -webkit-animation: my-animation 3s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateY(100%);
+    }
+
+    to {
+        -moz-transform: translateY(-100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateY(100%);
+    }
+
+    to {
+        -webkit-transform: translateY(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    to {
+        -moz-transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+}
+
+div.activites {
+    padding: 1vw;
+    width: 50vw;
+    /*border-style: double;*/
+    margin: .6vw;
+    /* box-shadow: 6px 6px 9px gray; */
+}
+
+.rect {
+    background: rgb(255, 255, 255);
+    width: 21.5vw;
+    height: 4vw;
+    /*border-style: double;*/
+}
+
+div.events {
+    padding: 1vw;
+    width: 23.5vw;
+    /*border-style: double;*/
+    margin: .6vw;
+    box-shadow: 6px 6px 9px gray;
+}
+
+
+
+div.achievements {
+    padding: 1vw;
+    width: 23.5vw;
+    /*border-style: double;*/
+    margin: .6vw;
+    box-shadow: 6px 6px 9px gray;
+}
